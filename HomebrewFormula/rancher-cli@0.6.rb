@@ -11,7 +11,7 @@ class RancherCliAT06 < Formula
     (buildpath/"src/github.com/rancher/cli/").install Dir["*"]
     system "go", "build", "-ldflags",
            "-w -X github.com/rancher/cli/version.VERSION=#{version}",
-           "-o", "#{bin}/rancher",
+           "-o", "#{bin}/rancher0.6",
            "-v", "github.com/rancher/cli/"
   end
 
