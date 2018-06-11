@@ -1,5 +1,5 @@
 class RancherCliAT06 < Formula
-  desc "The Rancher CLI is a unified tool to manage your Rancher server"
+  desc "The Rancher CLI 0.6.x is a unified tool to manage your Rancher v1.6 server"
   homepage "https://github.com/rancher/cli"
   url "https://github.com/rancher/cli/archive/v0.6.10.tar.gz"
   sha256 "c0039270c0f5ee950628732481e99a84aa2a4a528066a33877774142f5a787ff"
