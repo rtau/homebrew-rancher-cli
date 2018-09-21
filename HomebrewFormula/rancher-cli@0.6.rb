@@ -1,8 +1,8 @@
 class RancherCliAT06 < Formula
   desc "The Rancher CLI 0.6.x is a unified tool to manage your Rancher v1.6 server"
   homepage "https://github.com/rancher/cli"
-  url "https://github.com/rancher/cli/archive/v0.6.11.tar.gz"
-  sha256 "34528437ddc83bb5e4b706439d86f0b17b0fc2176ac7f0ce03652198fec6b147"
+  url "https://github.com/rancher/cli/archive/v0.6.12.tar.gz"
+  sha256 "423acf937cdda1b5e32f46051a2b3d1d4a29e9124bc84bbc95272b8bd4349a46"
 
   depends_on "go" => :build
 
